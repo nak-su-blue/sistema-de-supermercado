@@ -11,5 +11,32 @@
     <a href="adicionar.html">Gostaria de adicionar um cliente novo?</a>
     <a href="index.html">Voltar ao inicio</a>
     <h1>Adicionar clientes novos!</h1>
+    <form action="enviar" method="post">
+        <label for="nome-cliente">Nome do cliente</label>
+        <input type="text" id="nome-cliente" name="nome-cliente" required> <br>
+
+        <label for="telefone-cliente" >Tlefone/Whatsapp</label>
+        <input type="text" id="telefone-cliente" name="telefone-cliente" required> <br>
+
+        <label for="endereco-cliente">Endereço:</label>
+        <input type="text" name="endereco-cliente" id="endereco-cliente" placeholder="Ex:Rua joao amaro, 123" required><br>
+
+        <label for="cpf-cliente">CPF do cliente:</label>
+        <input type="text" id="cpf-cliente" name="cpf-cliente" required> <br>
+
+        <label for="data-hora">Selecione a data e a hora:</label>
+        <input type="datetime-local" id="data-hora" name="data-hora" required> <br>
+
+        <label for="inscrever">
+        <input type="checkbox" id="inscrever" name="newsletter" value="sim">
+        <span>Enviar promoções semanais para esse cliente?</span> 
+        </label> <br>
+
+        <label for="inscrver1">
+            <input type="checkbox" id="inscrever1" name="inscrever1">
+            <span>Enviar descontos do clube do cliente?</span>
+        </label>
+
+        </form>
 </body>
 </html>
