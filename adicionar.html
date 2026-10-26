@@ -12,6 +12,25 @@
     <a href="index.html">Voltar ao inicio</a>
 
     <h1>Adicionar mercadoria ao estoque!</h1>
+    <form action="enviar" method="post">
+        <label for="codigo-produto">Código do Produto:</label>
+        <input type="text" id="codigo-produto" name="codigo-produto" required> <br>
+
+        <label for="nome-produto">Nome do produto:</label>
+        <input type="text" id="nome-produto" name="nome-produto" required > <br>
+
+        <label for="categoria-produto">Selecione a Categoria do produto:</label>
+        <input type="text" id="categoria-produto" name="categoria-produto" required> <br>
+        
+
+        <label for="preco-venda">Preço de venda:</label>
+        <input type="number" id="preco-venda" name="preco-venda" required><br>
+
+        <label for="preco-custo">Preço de custo:</label>
+        <input type="number" id="preco-custo" name="preco-custo" required><br>
+
+        <button type="submit">Cadastrar</button>
+    </form>
     
 </body>
 </html>
